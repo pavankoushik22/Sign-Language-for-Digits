@@ -9,7 +9,7 @@ import tensorflow as tf
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 from sklearn.model_selection import train_test_split
 import os
-print(os.listdir("../input"))
+#print(os.listdir("../input"))
 
 # Any results you write to the current directory are saved as output.
 x = np.load("data/X.npy")
